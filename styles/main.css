@@ -1,0 +1,80 @@
+@import url('./reset.css');
+@import url('./accordion-tabs.css');
+
+*, 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2F2235;
+  padding: 20px 45px;
+}
+
+.header__h1, 
+.header__p {
+  color: white;
+}
+
+.header__h1 {
+  font-size: 1.8em;
+}
+
+.header__h1--blue {
+  color: #34D1D1;
+}
+
+.header__p {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+main {
+  padding: 45px;
+}
+
+.section__container {
+}
+
+.main__header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 50px;
+  width: 100%;
+}
+
+.main__header-line {
+  display: inline-block;
+  border-top: 1px solid #f2f2f2;
+  height: 50%;
+  padding-left: 10px;
+  width: 80%;
+  align-self: center;
+}
+
+.accordion__tab-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.accordion__tab-content-img {
+  border: 1px solid #D1D2D3;
+  background-color: #F2F2F2;
+  height: 350px;
+  min-width: 300px;
+}
+
+.accordion__tab-content-text {
+  padding: 15px 0 15px 20px;
+}
