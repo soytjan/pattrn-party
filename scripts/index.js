@@ -1,3 +1,4 @@
+// ACCORDION TABS
 $(document).ready(() => {
   $('.accordion').children('.accordion__tab').first().children('.accordion__tab-link').addClass('accordion__tab-active').next().addClass('is-open').show();
 })
