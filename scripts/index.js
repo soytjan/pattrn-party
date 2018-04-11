@@ -12,3 +12,10 @@ $('.accordion').on('click', 'li > a', function() {
     $(this).addClass('accordion__tab-active');
   }
 })
+
+// HEADER BAR
+$('.header__text').on('click', () => {
+  console.log('menu clicked');
+  $('.dropdown__cont').toggle();
+})
+
